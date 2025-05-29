@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+body {
+    background-color: #F7F7F7;
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: gray;
+    margin-bottom: 43px;
+}
+
+.box {
+    background-color: #FFF;
+    padding: 24px 21px;
+    border-radius: 20px;
+    box-shadow: 0px 11px 44px -10px #00000040;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.accordion-item {
+    max-width: 498px;
+}
+
+.accordion-header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: gray;
+    background-color: unset;
+    max-width: 498px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 19px;
+    border: 1px solid #0000001A;
+    border-radius: 4px;
+    transition: color 150ms linear;
+}
+
+/* .arrow {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 2.5px solid #808080;
+    border-bottom: 2.5px solid #808080;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    cursor: pointer;
+} */
+
+.accordion-item.active .arrow {
+    transform: rotate(-180deg);
+    /* up */
+}
+
+.accordion-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #808080;
+    max-height: 0;
+    max-width: 468px;
+    overflow: hidden;
+    transition: max-height 0.15s ease;
+    padding: 0 19px;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 150px;
+    padding: 0 19px 13px;
+    color: #808080;
+}
+
+.accordion-item.active .accordion-header {
+    color: #000;
+    border: 0;
+}
+
+.accordion-item.active {
+    border: 1px solid #128DFF;
+    border-radius: 5px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --fs-md: 36px;
+    --fs-sm: 16px;
+
+    --fw-sm: 400;
+
+    --text-grey: #808080;
+}
+
+.text_grey {
+    color: var(--text-grey);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fw_sm {
+    font-weight: var(--fw-sm);
+}
+
+.text-center {
+    text-align: center;
+}

@@ -4,28 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordian</title>
+    <title>Accordion</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <h1 class="">Accordian</h1>
-    <div class="accordian-container">
-        <div class="accordian-item">
-            <div class="accordian-heading">
+<body class="d-flex flex-column y-center x-center">
+    <h2>
+        Accordion
+    </h2>
+    <div class="box d-flex flex-column gap-10">
+        <div class="accordion-item" id="item1">
+            <button class="accordion-header d-flex" onclick="toggleAccordion('#item1')">
                 Group-1
-                <img src="./assets/images/arrow.svg" alt="arrow">
+                <img src="./assets/images/arrow.svg" alt="arrow" class="arrow">
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit
+                    at eget
+                    nunc. Nibh
+                    dictum nulla morbi ornare. Varius sit at eget nunc.
+                </p>
             </div>
-            <div class="accordian-content">
-                Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at
-                eget nunc. Nibh
-                dictum nulla morbi ornare. Varius sit at eget nunc.
-            </div>
-
         </div>
-
+        <div class="accordion-item" id="item2">
+            <button class="accordion-header d-flex" onclick="toggleAccordion('#item2')">
+                Group-1
+                <!-- <span class="arrow"></span> -->
+                 <img src="./assets/images/arrow.svg" alt="arrow" class="arrow">
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit
+                    at eget
+                    nunc. Nibh
+                    dictum nulla morbi ornare. Varius sit at eget nunc.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item" id="item3">
+            <button class="accordion-header d-flex" onclick="toggleAccordion('#item3')">
+                Group-1
+                <img src="./assets/images/arrow.svg" alt="arrow" class="arrow">
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit
+                    at eget
+                    nunc. Nibh
+                    dictum nulla morbi ornare. Varius sit at eget nunc.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item" id="item4">
+            <button class="accordion-header d-flex" onclick="toggleAccordion('#item4')">
+                Group-1
+                <img src="./assets/images/arrow.svg" alt="arrow" class="arrow">
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit
+                    at eget
+                    nunc. Nibh
+                    dictum nulla morbi ornare. Varius sit at eget nunc.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item" id="item5">
+            <button class="accordion-header d-flex" onclick="toggleAccordion('#item5')">
+                Group-1
+                <img src="./assets/images/arrow.svg" alt="arrow" class="arrow">
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit
+                    at eget
+                    nunc. Nibh
+                    dictum nulla morbi ornare. Varius sit at eget nunc.
+                </p>
+            </div>
+        </div>
     </div>
-    <script src="/assets/js/script.js"></script>
+
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
