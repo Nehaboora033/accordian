@@ -64,21 +64,9 @@ h2 {
     transition: color 150ms linear;
 }
 
-/* .arrow {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-right: 2.5px solid #808080;
-    border-bottom: 2.5px solid #808080;
-    transform: rotate(45deg);
-    transition: transform 0.3s ease;
-    margin-left: 10px;
-    cursor: pointer;
-} */
-
 .accordion-item.active .arrow {
     transform: rotate(-180deg);
-    /* up */
+    
 }
 
 .accordion-content {
